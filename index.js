@@ -31,7 +31,7 @@ app.post("/", function (req, res) {
   };
   var jsonData = JSON.stringify(data);
 
-  const url = "https://us21.api.mailchimp.com/3.0/lists/__1502efc50e";
+  const url = "https://us21.api.mailchimp.com/3.0/lists/1502efc50e";
 
   const options = {
     method: "POST",
